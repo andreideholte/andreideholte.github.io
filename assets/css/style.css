@@ -138,7 +138,7 @@ a {
 
 /* Estilização dos links visitados (opcional, mas bom para consistência) */
 a:visited {
-    color: rgb(167, 238, 68); /* Cor para links já visitados */
+    color: #0d0; /* Cor para links já visitados */
     text-decoration: none;
 }
 
