@@ -108,16 +108,6 @@ td {
   margin-bottom: 3px;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #282828;
-    color: #EEEEEE;
-  }
-  pre {
-    color: #d1d1d1
-  }
-}
-
 nav {
   max-width: 15em;
 }
