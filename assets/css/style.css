@@ -1,8 +1,8 @@
 html,
 body {
   font-family: sans-serif;
-  background: #111; /* Fundo escuro */
-  color: #eee; /* Cor do texto principal */
+  background: #111;
+  color: #eee;
 }
 
 h2 {
@@ -28,6 +28,9 @@ svg {
 footer ul {
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 footer li {
@@ -59,11 +62,14 @@ pre.ascii-art {
   padding-bottom: unset;
   color:  #0d0;
   overflow-x: unset;
-  font-family: "Courier New", Courier, monospace; /* Garante uma fonte monoespaçada */
-  background-color: transparent; /* Remove qualquer fundo */
-  border: none; /* Remove qualquer borda */
-  line-height: 1; /* Ajusta o espaçamento entre linhas se necessário */
-  font-size: 1em; /* Ajusta o tamanho da fonte */
+  font-family: "Courier New", Courier, monospace;
+  background-color: transparent;
+  border: none;
+  line-height: 1;
+  font-size: 1em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 table {
@@ -87,7 +93,7 @@ td {
 }
 
 .post-header h2 {
-    margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -96,65 +102,53 @@ td {
     color: #EEEEEE;
   }
   pre {
-      color: #d1d1d1
+    color: #d1d1d1
   }
 }
 
-/* Estilização do Menu */
 nav {
-    max-width: 15em; /* Largura máxima do menu */
+  max-width: 15em;
 }
 
 @media (min-width: 66em) {
-    nav {
-        position: fixed;
-    }
+  nav {
+    position: fixed;
+  }
 }
 
-/* Estilização do fieldset para criar a caixa com borda */
 fieldset {
-    border: #0d0 1px solid; /* Borda verde sólida de 1px */
-    color: #eee; /* Cor do texto dentro do fieldset */
-    padding: 1em; /* Espaçamento interno */
-    margin: 1em; /* Espaçamento externo */
+  border: #0d0 1px solid;
+  color: #eee;
+  padding: 1em;
+  margin: 1em;
 }
 
-/* Estilização da legenda "Navegação:" */
 legend {
-    border: #0d0 1px solid; /* Borda verde sólida de 1px */
-    padding: .3em; /* Espaçamento interno da legenda */
-    background: #111; /* Fundo igual ao do corpo para "cortar" a borda do fieldset */
+  border: #0d0 1px solid;
+  padding: .3em;
+  background: #111;
 }
 
 a {
+  color: #0d0;
   text-decoration: none;
 }
 
-/* Estilização dos links de navegação */
-a {
-    color: #0d0; /* Cor dos links (ciano) */
-    text-decoration: none; /* Remove o sublinhado */
-}
-
-/* Estilização dos links visitados (opcional, mas bom para consistência) */
 a:visited {
-    color: #0d0; /* Cor para links já visitados */
-    text-decoration: none;
+  color: #0d0;
+  text-decoration: none;
 }
-
-
-/* The styles below deal with the default Hugo theme content. */
 
 .list-content h1, .list-content h2 {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .list-content h2 {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .archive {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 @media (min-width: 699px) {
@@ -172,7 +166,6 @@ a:visited {
   }
 
   footer li em {
-      display: inline;
+    display: inline;
   }
-
 }
