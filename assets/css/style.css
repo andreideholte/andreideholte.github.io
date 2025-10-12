@@ -132,13 +132,13 @@ a {
 
 /* Estilização dos links de navegação */
 a {
-    color: rgb(167, 238, 68); /* Cor dos links (ciano) */
+    color: #0d0; /* Cor dos links (ciano) */
     text-decoration: none; /* Remove o sublinhado */
 }
 
 /* Estilização dos links visitados (opcional, mas bom para consistência) */
 a:visited {
-    color: rgb(96, 135, 40); /* Cor para links já visitados */
+    color: rgb(167, 238, 68); /* Cor para links já visitados */
     text-decoration: none;
 }
 
