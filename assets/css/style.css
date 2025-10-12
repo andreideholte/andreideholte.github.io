@@ -72,6 +72,18 @@ pre.ascii-art {
   display: flex;
 }
 
+@media (max-width: 768px) {
+  pre.ascii-art {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  pre.ascii-art {
+    font-size: 0.5em;
+  }
+}
+
 table {
   min-width: 90vw;
   border-collapse: collapse;
